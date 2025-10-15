@@ -27,3 +27,21 @@ li {
   padding-top: 150px;
   background-color: rgb(192, 236, 236);
 }
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: red;
+    font-size: 40px;
+    color: white;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    padding: 30px 50px;
+    font-size: 28px;
+    color: blueviolet;
+}
